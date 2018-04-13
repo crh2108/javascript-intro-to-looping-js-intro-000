@@ -19,3 +19,11 @@ function whileLoop(n) {
   }
   return 'done';
 }
+
+//dowhile loop - use maybeTrue until array is empty
+function doWhileLoop(array) {
+  do {
+    array.pop() //remove last element from array 1st
+  } while (array.length > 0 && maybeTrue()) //remove elements from array based on maybetrue til empty
+  return array
+}
