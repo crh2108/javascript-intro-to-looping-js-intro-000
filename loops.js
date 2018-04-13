@@ -1,5 +1,7 @@
-function whileLoop(i) {
-  while (i > 0) {
+function whileLoop(n) {
+  while (n > 0) {
     console.log(--i)
+  }
+  console.log('done')
   }
 }
