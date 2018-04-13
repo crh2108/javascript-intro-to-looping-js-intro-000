@@ -1,6 +1,6 @@
 function whileLoop(n) {
   while (n > 0) {
-    console.log(--i)
+    console.log(--n)
   }
   console.log('done')
   }
