@@ -1,4 +1,5 @@
 //for loop - add a string to an array 25 times
+//then return the array
 function forLoop(array) {
   for (let i = 0; i < 25; i++) {
     if (i === 1) {
