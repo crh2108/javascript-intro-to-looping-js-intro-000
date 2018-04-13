@@ -19,6 +19,10 @@ function whileLoop(n) {
   }
   return 'done';
 }
+//define the maybeTrue function - copied from readme.md
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
 
 //dowhile loop - use maybeTrue until array is empty
 function doWhileLoop(array) {
